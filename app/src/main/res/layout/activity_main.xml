@@ -34,7 +34,7 @@
             android:rowCount="4">
 
             <com.google.android.material.card.MaterialCardView
-                android:id="@+id/skils"
+                android:id="@+id/skills"
                 android:layout_width="135dp"
                 android:layout_height="135dp"
                 android:clipToPadding="false"
@@ -100,6 +100,7 @@
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/positive"
                 android:layout_width="135dp"
                 android:layout_height="135dp"
                 android:clipToPadding="false"
@@ -132,6 +133,7 @@
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/healthy"
                 android:layout_width="135dp"
                 android:layout_height="135dp"
                 android:clipToPadding="false"
@@ -164,6 +166,7 @@
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/learner"
                 android:layout_width="135dp"
                 android:layout_height="135dp"
                 android:clipToPadding="false"
@@ -196,6 +199,7 @@
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/advisor"
                 android:layout_width="135dp"
                 android:layout_height="135dp"
                 android:clipToPadding="false"
@@ -228,6 +232,7 @@
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/wiser"
                 android:layout_width="135dp"
                 android:layout_height="135dp"
                 android:clipToPadding="false"
@@ -260,6 +265,7 @@
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/volunteer"
                 android:layout_width="135dp"
                 android:layout_height="135dp"
                 android:clipToPadding="false"
@@ -292,6 +298,7 @@
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/groomed"
                 android:layout_width="135dp"
                 android:layout_height="135dp"
                 android:clipToPadding="false"
@@ -324,6 +331,7 @@
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/mentor"
                 android:layout_width="135dp"
                 android:layout_height="135dp"
                 android:clipToPadding="false"
@@ -356,6 +364,7 @@
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/trained"
                 android:layout_width="135dp"
                 android:layout_height="135dp"
                 android:clipToPadding="false"
@@ -388,6 +397,7 @@
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card"
                 android:layout_width="135dp"
                 android:layout_height="135dp"
                 android:clipToPadding="false"
