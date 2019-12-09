@@ -38,6 +38,15 @@ public class Skills extends AppCompatActivity {
         skills.add(new Skill("Negotiation"));
         skills.add(new Skill("Interpersonal Communication"));
         skills.add(new Skill("Self Awareness"));
+        skills.add(new Skill("Stress Management"));
+        skills.add(new Skill("Conflict Management"));
+        skills.add(new Skill("Self Awareness"));
+        skills.add(new Skill("Self Awareness"));
+        skills.add(new Skill("Self Awareness"));
+        skills.add(new Skill("Self Awareness"));
+        skills.add(new Skill("Self Awareness"));
+        skills.add(new Skill("Self Awareness"));
+        skills.add(new Skill("Self Awareness"));
         skills.add(new Skill("Self Awareness"));
     }
 
