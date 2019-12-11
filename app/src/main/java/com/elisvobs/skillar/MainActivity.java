@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 //                startActivity(new Intent(this, Positive.class));
                 break;
             case R.id.healthy:
-//                startActivity(new Intent(this, Healthy.class));
+                startActivity(new Intent(this, HealthyLife.class));
                 break;
             case R.id.learner:
 //                startActivity(new Intent(this, Learner.class));
