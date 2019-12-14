@@ -2,16 +2,34 @@ package com.elisvobs.skillar;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
-
 public class HealthyLife extends AppCompatActivity {
+
+    private BottomNavigationView .OnNavigationItemSelectedListener mOnNavigationItemSelectedListener =
+            new BottomNavigationView.OnNavigationItemSelectedListener() {
+                @Override
+                public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                    int id = menuItem.getItemId();
+
+                    if (id == R.id.nav_food) {
+                        startActivity(new Intent(this, FoodActivity.class));
+                        finish();
+                    }  else if (id == R.id.nav_healthy) {
+                        startActivity(new Intent(this, HealthyActivity.class));
+                        finish();
+                    } else if (id == R.id.nav_hygiene) {
+                        startActivity(new Intent(this, HygieneActivity.class));
+                        finish();
+                    }
+                    return false;
+                }
+            };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,15 +37,9 @@ public class HealthyLife extends AppCompatActivity {
         setContentView(R.layout.activity_healthy_life);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setTitle("Heathy Lifestyle");
-        BottomNavigationView navView = findViewById(R.id.nav_view);
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
-        AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications)
-                .build();
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
-        NavigationUI.setupWithNavController(navView, navController);
+
+        BottomNavigationView navigation = findViewById(R.id.nav_view);
+        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
 
     @Override
