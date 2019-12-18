@@ -11,27 +11,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Skills extends AppCompatActivity {
-    private List<Skill> skills;
     SkillsAdapter skillsAdapter;
-    RecyclerView mRecyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_skills);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setTitle("Life Skills");
-
-        mRecyclerView = findViewById(R.id.skills_list);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-        mRecyclerView.setLayoutManager(layoutManager);
-        mRecyclerView.setAdapter(skillsAdapter);
 
         initSkills();
     }
 
     private void initSkills() {
-        skills = new ArrayList<>();
+        List<Skill> skills = new ArrayList<>();
         skills.add(new Skill("Goal Setting"));
         skills.add(new Skill("Problem Solving"));
         skills.add(new Skill("Creative Thinking"));
@@ -48,12 +41,19 @@ public class Skills extends AppCompatActivity {
         skills.add(new Skill("Managing Relationships"));
         skills.add(new Skill("Peer Pressure"));
         skills.add(new Skill("Substance Abuse"));
+
+        final RecyclerView mRecyclerView = findViewById(R.id.skills_list);
+        final LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+
+        mRecyclerView.setLayoutManager(layoutManager);
+        skillsAdapter = new SkillsAdapter(skills);
+        mRecyclerView.setAdapter(skillsAdapter);
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        skillsAdapter.notifyDataSetChanged();
+//        skillsAdapter.notifyDataSetChanged();
     }
 
     @Override

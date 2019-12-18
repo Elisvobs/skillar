@@ -18,13 +18,13 @@ public class HealthyLife extends AppCompatActivity {
                     int id = menuItem.getItemId();
 
                     if (id == R.id.nav_food) {
-                        startActivity(new Intent(this, FoodActivity.class));
+//                        startActivity(new Intent(this, FoodActivity.class));
                         finish();
                     }  else if (id == R.id.nav_healthy) {
-                        startActivity(new Intent(this, HealthyActivity.class));
+//                        startActivity(new Intent(this, HealthyActivity.class));
                         finish();
                     } else if (id == R.id.nav_hygiene) {
-                        startActivity(new Intent(this, HygieneActivity.class));
+//                        startActivity(new Intent(this, HygieneActivity.class));
                         finish();
                     }
                     return false;

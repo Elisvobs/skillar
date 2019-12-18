@@ -6,8 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
-    android:layout_marginTop="16dp"
-    android:padding="4dp"
+    android:layout_marginTop="4dp"
+    android:padding="2dp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity">
 
@@ -16,9 +16,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="0dp"
         android:layout_marginEnd="0dp"
-        android:layout_marginBottom="4dp"
+        android:layout_marginBottom="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +27,7 @@
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="center"
             android:alignmentMode="alignMargins"
             android:columnCount="3"
             android:columnOrderPreserved="false"
@@ -39,8 +39,8 @@
                 android:layout_height="135dp"
                 android:clipToPadding="false"
                 android:onClick="onClick"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp"
                 app:cardUseCompatPadding="false">
 
                 <LinearLayout
@@ -72,8 +72,8 @@
                 android:layout_height="135dp"
                 android:clipToPadding="false"
                 android:onClick="onClick"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp"
                 app:cardUseCompatPadding="false">
 
                 <LinearLayout
@@ -105,8 +105,8 @@
                 android:layout_height="135dp"
                 android:clipToPadding="false"
                 android:onClick="onClick"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp"
                 app:cardUseCompatPadding="false">
 
                 <LinearLayout
@@ -138,8 +138,8 @@
                 android:layout_height="135dp"
                 android:clipToPadding="false"
                 android:onClick="onClick"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp"
                 app:cardUseCompatPadding="false">
 
                 <LinearLayout
@@ -171,8 +171,8 @@
                 android:layout_height="135dp"
                 android:clipToPadding="false"
                 android:onClick="onClick"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp"
                 app:cardUseCompatPadding="false">
 
                 <LinearLayout
@@ -204,8 +204,8 @@
                 android:layout_height="135dp"
                 android:clipToPadding="false"
                 android:onClick="onClick"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp"
                 app:cardUseCompatPadding="false">
 
                 <LinearLayout
@@ -237,8 +237,8 @@
                 android:layout_height="135dp"
                 android:clipToPadding="false"
                 android:onClick="onClick"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp"
                 app:cardUseCompatPadding="false">
 
                 <LinearLayout
@@ -270,8 +270,8 @@
                 android:layout_height="135dp"
                 android:clipToPadding="false"
                 android:onClick="onClick"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp"
                 app:cardUseCompatPadding="false">
 
                 <LinearLayout
@@ -303,8 +303,8 @@
                 android:layout_height="135dp"
                 android:clipToPadding="false"
                 android:onClick="onClick"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp"
                 app:cardUseCompatPadding="false">
 
                 <LinearLayout
@@ -336,8 +336,8 @@
                 android:layout_height="135dp"
                 android:clipToPadding="false"
                 android:onClick="onClick"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp"
                 app:cardUseCompatPadding="false">
 
                 <LinearLayout
@@ -369,8 +369,8 @@
                 android:layout_height="135dp"
                 android:clipToPadding="false"
                 android:onClick="onClick"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp"
                 app:cardUseCompatPadding="false">
 
                 <LinearLayout
@@ -402,8 +402,8 @@
                 android:layout_height="135dp"
                 android:clipToPadding="false"
                 android:onClick="onClick"
-                app:cardCornerRadius="4dp"
-                app:cardElevation="4dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="2dp"
                 app:cardUseCompatPadding="false">
 
                 <LinearLayout
