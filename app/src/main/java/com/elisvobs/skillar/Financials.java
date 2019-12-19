@@ -1,0 +1,15 @@
+package com.elisvobs.skillar;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class Financials extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_financial);
+        setTitle(R.string.financial_skills);
+    }
+}

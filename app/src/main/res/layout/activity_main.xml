@@ -60,7 +60,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Life Skills"
+                        android:text="@string/title_activity_skills"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -93,7 +93,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Financial Skills"
+                        android:text="@string/financial_skills"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -126,7 +126,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Positive Life"
+                        android:text="@string/positive_life"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -159,7 +159,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Healthy Lifesytle"
+                        android:text="@string/healthy_lifesytle"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -192,14 +192,14 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Learning Tips"
+                        android:text="@string/learning_tips"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="18sp" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
-                android:id="@+id/advisor"
+                android:id="@+id/adviser"
                 android:layout_width="135dp"
                 android:layout_height="135dp"
                 android:clipToPadding="false"
@@ -225,7 +225,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Career Advice"
+                        android:text="@string/career_advice"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -258,7 +258,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Wisdom 4 Lyf"
+                        android:text="@string/wisdom"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -291,7 +291,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Volunteering"
+                        android:text="@string/volunteering"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -324,7 +324,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Ettiquete"
+                        android:text="@string/etiquette"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -357,7 +357,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Mentorship"
+                        android:text="@string/mentorship"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -390,7 +390,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Training"
+                        android:text="@string/training"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -423,7 +423,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Infection Control"
+                        android:text="@string/infection_control"
                         android:textAppearance="?android:textAppearanceMedium"
                         android:textSize="18sp" />
                 </LinearLayout>

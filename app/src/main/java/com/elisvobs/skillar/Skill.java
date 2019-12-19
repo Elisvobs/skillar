@@ -1,9 +1,9 @@
 package com.elisvobs.skillar;
 
 public class Skill {
-    String skill;
+    int skill;
 
-    public Skill(String skill) {
+    public Skill(int skill) {
         this.skill = skill;
     }
 }

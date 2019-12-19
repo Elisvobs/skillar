@@ -17,30 +17,30 @@ public class Skills extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_skills);
+        setTitle(R.string.title_activity_skills);
 //        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        setTitle("Life Skills");
 
-        initSkills();
+        lifeSkills();
     }
 
-    private void initSkills() {
-        List<Skill> skills = new ArrayList<>();
-        skills.add(new Skill("Goal Setting"));
-        skills.add(new Skill("Problem Solving"));
-        skills.add(new Skill("Creative Thinking"));
-        skills.add(new Skill("Leadership"));
-        skills.add(new Skill("Interpersonal Communication"));
-        skills.add(new Skill("Assertiveness"));
-        skills.add(new Skill("Conflict Management"));
-        skills.add(new Skill("Teamwork"));
-        skills.add(new Skill("Stress Management"));
-        skills.add(new Skill("Self Awareness"));
-        skills.add(new Skill("Negotiation"));
-        skills.add(new Skill("Time Management"));
-        skills.add(new Skill("Decision Making"));
-        skills.add(new Skill("Managing Relationships"));
-        skills.add(new Skill("Peer Pressure"));
-        skills.add(new Skill("Substance Abuse"));
+    private void lifeSkills() {
+        final List<Skill> skills = new ArrayList<>();
+        skills.add(new Skill(R.string.goals));
+        skills.add(new Skill(R.string.problem));
+        skills.add(new Skill(R.string.creative));
+        skills.add(new Skill(R.string.leadership));
+        skills.add(new Skill(R.string.communications));
+        skills.add(new Skill(R.string.assertiveness));
+        skills.add(new Skill(R.string.conflict));
+        skills.add(new Skill(R.string.team));
+        skills.add(new Skill(R.string.stress));
+        skills.add(new Skill(R.string.awareness));
+        skills.add(new Skill(R.string.negotiation));
+        skills.add(new Skill(R.string.time));
+        skills.add(new Skill(R.string.decision));
+        skills.add(new Skill(R.string.relationships));
+        skills.add(new Skill(R.string.pressure));
+        skills.add(new Skill(R.string.substance));
 
         final RecyclerView mRecyclerView = findViewById(R.id.skills_list);
         final LinearLayoutManager layoutManager = new LinearLayoutManager(this);
@@ -53,7 +53,7 @@ public class Skills extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-//        skillsAdapter.notifyDataSetChanged();
+        skillsAdapter.notifyDataSetChanged();
     }
 
     @Override

@@ -1,10 +1,10 @@
 package com.elisvobs.skillar;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setTitle(R.string.app_name);
     }
 
     public void onClick(View view) {
@@ -21,18 +22,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, Skills.class));
                 break;
             case R.id.fin:
-//                startActivity(new Intent(this, Financial.class));
-                break;
-            case R.id.positive:
-//                startActivity(new Intent(this, Positive.class));
+                startActivity(new Intent(this, Financials.class));
                 break;
             case R.id.healthy:
                 startActivity(new Intent(this, HealthyLife.class));
                 break;
+            case R.id.positive:
+//                startActivity(new Intent(this, Positive.class));
+                break;
             case R.id.learner:
 //                startActivity(new Intent(this, Learner.class));
                 break;
-            case R.id.advisor:
+            case R.id.adviser:
 //                startActivity(new Intent(this, Advisor.class));
                 break;
             case R.id.wiser:

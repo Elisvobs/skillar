@@ -21,7 +21,7 @@ public class HealthyLife extends AppCompatActivity {
 //                        startActivity(new Intent(this, FoodActivity.class));
                         finish();
                     }  else if (id == R.id.nav_healthy) {
-//                        startActivity(new Intent(this, HealthyActivity.class));
+//                        startActivity(new Intent(thi HealthyActivity.class));
                         finish();
                     } else if (id == R.id.nav_hygiene) {
 //                        startActivity(new Intent(this, HygieneActivity.class));
@@ -36,7 +36,7 @@ public class HealthyLife extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_healthy_life);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        setTitle("Heathy Lifestyle");
+        setTitle(R.string.title_activity_healthy_life);
 
         BottomNavigationView navigation = findViewById(R.id.nav_view);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);

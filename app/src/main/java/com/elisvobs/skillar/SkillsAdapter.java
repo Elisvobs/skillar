@@ -13,18 +13,22 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 public class SkillsAdapter extends RecyclerView.Adapter<SkillsAdapter.SkillsViewHolder>  {
-    List<Skill> skills;
+    private List<Skill> skills;
 
-    public SkillsAdapter(List<Skill> skills) {
+    SkillsAdapter(List<Skill> skills) {
         this.skills = skills;
     }
 
     public static class SkillsViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         TextView skill;
+        private final Context context;
 
-        public SkillsViewHolder(@NonNull View itemView) {
+         SkillsViewHolder(@NonNull View itemView) {
             super(itemView);
             skill = itemView.findViewById(R.id.text_skill);
+            context = itemView.getContext();
+            itemView.setClickable(true);
+            itemView.setOnClickListener(this);
         }
 
        @Override
@@ -32,14 +36,57 @@ public class SkillsAdapter extends RecyclerView.Adapter<SkillsAdapter.SkillsView
             Intent intent = new Intent();
             switch (getAdapterPosition()) {
                 case 0:
-//                   intent = new Intent(view.getContext(), GoalsActivity.class);
+                   intent = new Intent(context, GoalsActivity.class);
                     break;
                 case 1:
-//                    intent = new Intent(view.getContext(), ProblemSolverActivity.class);
+                    intent = new Intent(context, ProblemsActivity.class);
                     break;
+                case 2:
+//                    intent = new Intent(context, Creative.class);
+                    break;
+                case 3:
+//                    intent = new Intent(context, Leaders.class);
+                    break;
+                case 4:
+//                    intent = new Intent(context, Comms.class);
+                    break;
+                case 5:
+//                    intent = new Intent(context, Asserts.class);
+                    break;
+                case 6:
+//                    intent = new Intent(context, Conflicts.class);
+                    break;
+                case 7:
+//                    intent = new Intent(context, Teams.class);
+                    break;
+                case 8:
+//                    intent = new Intent(context, Stresses.class);
+                    break;
+                case 9:
+//                    intent = new Intent(context, Awareness.class);
+                    break;
+                case 10:
+//                    intent = new Intent(context, Negotiation.class);
+                    break;
+                case 11:
+//                    intent = new Intent(context, TimeMgmt.class);
+                    break;
+                case 12:
+//                    intent = new Intent(context, Decisions.class);
+                    break;
+                case 13:
+//                    intent = new Intent(context, Relations.class);
+                    break;
+                case 14:
+//                    intent = new Intent(context, Pressures.class);
+                    break;
+                case 15:
+//                    intent = new Intent(context, Substances.class);
+                    break;
+
             }
 
-            view.getContext().startActivity(intent);
+           context.startActivity(intent);
         }
     }
 
