@@ -3,23 +3,60 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_healthy">
+    app:startDestination="@+id/nav_home">
 
     <fragment
-        android:id="@+id/nav_healthy"
-        android:name="@string/title_notifications"
-        android:label="@string/title_home"
+        android:id="@+id/nav_home"
+        android:name="com.elisvobs.skillar.ui.home.HomeFragment"
+        android:label="@string/nav_life"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_hygiene"
-        android:name="@string/title_notifications"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/nav_fin"
+        android:name="com.elisvobs.skillar.ui.fin.FinFragment"
+        android:label="@string/nav_fin"
+        tools:layout="@layout/fragment_fin" />
 
     <fragment
-        android:id="@+id/nav_food"
-        android:name="@string/title_notifications"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/nav_positive"
+        android:name="com.elisvobs.skillar.ui.positive.PositiveFragment"
+        android:label="@string/nav_positive"
+        tools:layout="@layout/fragment_positive" />
+
+    <fragment
+        android:id="@+id/nav_healthy"
+        android:name="com.elisvobs.skillar.ui.healthy.HealthyFragment"
+        android:label="@string/nav_healthy"
+        tools:layout="@layout/fragment_healthy" />
+
+    <fragment
+        android:id="@+id/nav_toolkit"
+        android:name="com.elisvobs.skillar.ui.toolkit.ToolkitFragment"
+        android:label="@string/nav_toolkit"
+        tools:layout="@layout/fragment_toolkit" />
+
+    <fragment
+        android:id="@+id/nav_learn"
+        android:name="com.elisvobs.skillar.ui.learn.LearnFragment"
+        android:label="@string/nav_learn"
+        tools:layout="@layout/fragment_learn" />
+
+    <fragment
+        android:id="@+id/nav_focus"
+        android:name="com.elisvobs.skillar.ui.focus.FocusFragment"
+        android:label="@string/nav_focus"
+        tools:layout="@layout/fragment_focus" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.elisvobs.skillar.ui.share.ShareFragment"
+        android:label="@string/nav_share"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.elisvobs.skillar.ui.about.AboutFragment"
+        android:label="@string/nav_about"
+        tools:layout="@layout/fragment_about" />
+
 </navigation>
