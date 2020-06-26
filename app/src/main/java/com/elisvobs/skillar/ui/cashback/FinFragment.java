@@ -1,4 +1,4 @@
-package com.elisvobs.skillar.ui.fin;
+package com.elisvobs.skillar.ui.cashback;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -19,7 +19,7 @@ public class FinFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         mFinViewModel =
                 ViewModelProviders.of(this).get(FinViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_fin, container, false);
+        View root = inflater.inflate(R.layout.fragment_cashback, container, false);
         return root;
     }
 }

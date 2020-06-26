@@ -12,28 +12,10 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_fin"
-        android:name="com.elisvobs.skillar.ui.fin.FinFragment"
-        android:label="@string/nav_fin"
-        tools:layout="@layout/fragment_fin" />
-
-    <fragment
         android:id="@+id/nav_positive"
         android:name="com.elisvobs.skillar.ui.positive.PositiveFragment"
         android:label="@string/nav_positive"
         tools:layout="@layout/fragment_positive" />
-
-    <fragment
-        android:id="@+id/nav_healthy"
-        android:name="com.elisvobs.skillar.ui.healthy.HealthyFragment"
-        android:label="@string/nav_healthy"
-        tools:layout="@layout/fragment_healthy" />
-
-    <fragment
-        android:id="@+id/nav_toolkit"
-        android:name="com.elisvobs.skillar.ui.toolkit.ToolkitFragment"
-        android:label="@string/nav_toolkit"
-        tools:layout="@layout/fragment_toolkit" />
 
     <fragment
         android:id="@+id/nav_learn"
@@ -42,16 +24,34 @@
         tools:layout="@layout/fragment_learn" />
 
     <fragment
-        android:id="@+id/nav_focus"
-        android:name="com.elisvobs.skillar.ui.focus.FocusFragment"
-        android:label="@string/nav_focus"
-        tools:layout="@layout/fragment_focus" />
+        android:id="@+id/nav_essentials"
+        android:name="com.elisvobs.skillar.ui.essentials.ToolkitFragment"
+        android:label="@string/nav_essentials"
+        tools:layout="@layout/fragment_essentials" />
 
     <fragment
-        android:id="@+id/nav_share"
-        android:name="com.elisvobs.skillar.ui.share.ShareFragment"
-        android:label="@string/nav_share"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_cashback"
+        android:name="com.elisvobs.skillar.ui.cashback.FinFragment"
+        android:label="@string/cashback"
+        tools:layout="@layout/fragment_cashback" />
+
+    <fragment
+        android:id="@+id/nav_mad"
+        android:name="com.elisvobs.skillar.ui.mad.FocusFragment"
+        android:label="@string/nav_mad"
+        tools:layout="@layout/fragment_mad" />
+
+    <fragment
+        android:id="@+id/nav_credits"
+        android:name="com.elisvobs.skillar.ui.credits.HealthyFragment"
+        android:label="@string/nav_credits"
+        tools:layout="@layout/fragment_credits" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_share"-->
+<!--        android:name="com.elisvobs.skillar.ui.share.ShareFragment"-->
+<!--        android:label="@string/nav_share"-->
+<!--        tools:layout="@layout/fragment_home" />-->
 
     <fragment
         android:id="@+id/nav_about"

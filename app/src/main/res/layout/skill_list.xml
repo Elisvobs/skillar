@@ -6,44 +6,37 @@
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="160dp"
         app:contentPadding="16dp"
         app:cardUseCompatPadding="true"
-        app:cardPreventCornerOverlap="false"
         app:cardElevation="4dp"
-        app:cardCornerRadius="4dp"
+        app:cardCornerRadius="2dp"
         android:id="@+id/card_view">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
 
             <ImageView
-                android:layout_height="wrap_content"
                 android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:id="@+id/skill_image"
                 app:srcCompat="@drawable/ic_menu_camera"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toStartOf="parent"
-                app:layout_constraintBottom_toTopOf="@id/text_skill"
-                android:layout_margin="8dp"
                 android:contentDescription="@null" />
 
             <TextView
                 android:id="@+id/text_skill"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAppearance="?android:textAppearanceSmall"
                 android:textAlignment="center"
-                android:text="@string/skill"
-                android:layout_margin="8dp"
-                app:layout_constraintTop_toBottomOf="@id/skill_image"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"/>
+                android:textSize="16sp"
+                android:text="@string/skill"/>
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>
 

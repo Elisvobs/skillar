@@ -1,4 +1,4 @@
-package com.elisvobs.skillar.ui.focus;
+package com.elisvobs.skillar.ui.mad;
 
 import androidx.lifecycle.ViewModel;
 

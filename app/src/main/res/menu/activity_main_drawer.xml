@@ -8,33 +8,33 @@
         android:icon="@drawable/ic_life"
         android:title="@string/nav_life" />
     <item
-        android:id="@+id/nav_fin"
-        android:icon="@drawable/ic_fin"
-        android:title="@string/nav_fin" />
-    <item
         android:id="@+id/nav_positive"
         android:icon="@drawable/ic_positive"
         android:title="@string/nav_positive" />
-    <item
-        android:id="@+id/nav_healthy"
-        android:icon="@drawable/ic_healthy"
-        android:title="@string/nav_healthy" />
-    <item
-        android:id="@+id/nav_toolkit"
-        android:icon="@drawable/ic_toolkit"
-        android:title="@string/nav_toolkit" />
     <item
         android:id="@+id/nav_learn"
         android:icon="@drawable/ic_learn"
         android:title="@string/nav_learn" />
     <item
-        android:id="@+id/nav_focus"
-        android:icon="@drawable/ic_focus"
-        android:title="@string/nav_focus" />
+        android:id="@+id/nav_essentials"
+        android:icon="@drawable/ic_toolkit"
+        android:title="@string/nav_essentials" />
     <item
-        android:id="@+id/nav_share"
-        android:icon="@drawable/ic_menu_share"
-        android:title="@string/nav_share" />
+        android:id="@+id/nav_cashback"
+        android:icon="@drawable/ic_fin"
+        android:title="@string/cashback" />
+    <item
+        android:id="@+id/nav_mad"
+        android:icon="@drawable/ic_focus"
+        android:title="@string/nav_mad" />
+    <item
+        android:id="@+id/nav_credits"
+        android:icon="@drawable/ic_healthy"
+        android:title="@string/nav_credits" />
+<!--    <item-->
+<!--        android:id="@+id/nav_share"-->
+<!--        android:icon="@drawable/ic_menu_share"-->
+<!--        android:title="@string/nav_share" />-->
     <item
         android:id="@+id/nav_about"
         android:icon="@drawable/ic_about"

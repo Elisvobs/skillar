@@ -1,4 +1,4 @@
-package com.elisvobs.skillar.ui.fin;
+package com.elisvobs.skillar.ui.cashback;
 
 import androidx.lifecycle.ViewModel;
 

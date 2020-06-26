@@ -1,4 +1,4 @@
-package com.elisvobs.skillar.ui.toolkit;
+package com.elisvobs.skillar.ui.essentials;
 
 import androidx.lifecycle.ViewModel;
 

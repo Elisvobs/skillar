@@ -8,8 +8,7 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProviders;
-import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.elisvobs.skillar.R;
@@ -25,9 +24,10 @@ public class HomeFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                ViewModelProviders.of(this).get(HomeViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
+        homeViewModel = new ViewModelProvider(this)
+                .get(HomeViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_home,
+                container, false);
         Context context = root.getContext();
 
         lifeSkills(root, context);
@@ -37,7 +37,6 @@ public class HomeFragment extends Fragment {
 
     private void lifeSkills(View root, Context context) {
         final RecyclerView mRecyclerView = root.findViewById(R.id.skills_list);
-        final GridLayoutManager layoutManager = new GridLayoutManager(context, 2);
         final List<Skill> skills = new ArrayList<>();
 
         skills.add(new Skill(R.string.goals, R.drawable.ic_menu_send));
@@ -56,8 +55,8 @@ public class HomeFragment extends Fragment {
         skills.add(new Skill(R.string.relationships, R.drawable.ic_menu_send));
         skills.add(new Skill(R.string.pressure, R.drawable.ic_menu_send));
         skills.add(new Skill(R.string.substance, R.drawable.ic_menu_send));
+//        skills.add(new Skill(R.string.critical, R.drawable.ic_menu_send));
 
-        mRecyclerView.setLayoutManager(layoutManager);
         skillsAdapter = new SkillsAdapter(skills);
         mRecyclerView.setAdapter(skillsAdapter);
     }

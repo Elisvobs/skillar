@@ -1,4 +1,4 @@
-package com.elisvobs.skillar.ui.healthy;
+package com.elisvobs.skillar.ui.mad;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,15 +11,15 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.elisvobs.skillar.R;
 
-public class HealthyFragment extends Fragment {
+public class FocusFragment extends Fragment {
 
-    private HealthyViewModel mHealthyViewModel;
+    private FocusViewModel mFocusViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        mHealthyViewModel =
-                ViewModelProviders.of(this).get(HealthyViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_healthy, container, false);
+        mFocusViewModel =
+                ViewModelProviders.of(this).get(FocusViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_mad, container, false);
 
         return root;
     }

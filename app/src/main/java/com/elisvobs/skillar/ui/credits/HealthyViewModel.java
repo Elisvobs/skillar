@@ -1,4 +1,4 @@
-package com.elisvobs.skillar.ui.healthy;
+package com.elisvobs.skillar.ui.credits;
 
 import androidx.lifecycle.ViewModel;
 

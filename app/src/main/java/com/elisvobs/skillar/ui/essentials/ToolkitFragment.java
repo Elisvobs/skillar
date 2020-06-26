@@ -1,4 +1,4 @@
-package com.elisvobs.skillar.ui.toolkit;
+package com.elisvobs.skillar.ui.essentials;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -19,7 +19,7 @@ public class ToolkitFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         mToolkitViewModel =
                 ViewModelProviders.of(this).get(ToolkitViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_toolkit, container, false);
+        View root = inflater.inflate(R.layout.fragment_essentials, container, false);
 
         return root;
     }

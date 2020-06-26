@@ -91,9 +91,10 @@ public class SkillsAdapter extends RecyclerView.Adapter<SkillsAdapter.SkillsView
                 case 15:
 //                    intent = new Intent(context, Substances.class);
                     break;
-
+                case 16:
+//                    intent = new Intent(context, Critical.class);
+                    break;
             }
-
            context.startActivity(intent);
         }
     }
