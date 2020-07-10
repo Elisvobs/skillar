@@ -1,43 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    app:contentPadding="4dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="2dp"
+    android:id="@+id/card_view">
 
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
+    <LinearLayout
         android:layout_height="160dp"
-        app:contentPadding="16dp"
-        app:cardUseCompatPadding="true"
-        app:cardElevation="4dp"
-        app:cardCornerRadius="2dp"
-        android:id="@+id/card_view">
+        android:layout_width="match_parent"
+        android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_height="match_parent"
+        <ImageView
             android:layout_width="match_parent"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/skill_image"
+            app:srcCompat="@drawable/ic_menu_camera"
+            android:contentDescription="@null" />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:id="@+id/skill_image"
-                app:srcCompat="@drawable/ic_menu_camera"
-                android:contentDescription="@null" />
+        <TextView
+            android:id="@+id/text_skill"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="@string/skill"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:textStyle="italic"/>
 
-            <TextView
-                android:id="@+id/text_skill"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:textAppearance="?android:textAppearanceSmall"
-                android:textAlignment="center"
-                android:textSize="16sp"
-                android:text="@string/skill"/>
+    </LinearLayout>
 
-        </LinearLayout>
-
-    </com.google.android.material.card.MaterialCardView>
-
-</FrameLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProvider;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.elisvobs.skillar.R;
@@ -18,7 +19,7 @@ public class AboutFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         mAboutViewModel =
-                ViewModelProviders.of(this).get(AboutViewModel.class);
+                new ViewModelProvider(this).get(AboutViewModel.class);
         View root = inflater.inflate(R.layout.fragment_about, container, false);
 
         return root;
