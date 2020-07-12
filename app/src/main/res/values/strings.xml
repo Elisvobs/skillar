@@ -77,4 +77,38 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ex1">What are your lifetime goals? List them in order of priority starting with the highest priority.\n 1. ………………………………………………………\n 2. ………………………………………………………\n 3. ………………………………………………………</string>
+    <string name="lf">The first step in setting personal goals is to consider what you want to achieve in your lifetime (or by a time at least, say, 10 years in the future) as setting Lifetime Goals gives you the overall perspective that shapes all other aspects of your decision making.</string>
+    <string name="ex2">State your expected achievements within the next ten years.\n"
+                "1.\t………………………………………………………..\n"
+                "2.\t………………………………………………………..\n"
+                "3.\t……………………………………………………….\n"
+                "\n"
+                "To give a broad, balanced coverage of all-important areas in your life try to set goals in some of these categories (or in categories of your own, where these are important to you):\n" +
+                "Artistic:\n" +
+                "Do you want to achieve any artistic goals? If so, what?\n" +
+                "\n" +
+                "Attitude:\n" +
+                "Is there any part of your mindset holding you back? Is there any part of the way that you behave that upsets you? If so, set a goal to improve your behaviour or find a solution to the problem.\n" +
+                "\n" +
+                "Career:\n" +
+                "What level do you want to reach in your career?\n" +
+                "\n" +
+                "Education;\n" +
+                "Is there any knowledge you want to acquire in particular? What information and skills you need to achieve other goals?\n" +
+                "\n" +
+                "Family:\n" +
+                "Do you want to be a parent? If so, how are you going to be a good parent? How do you want to be seen by a partner or by members of your extended family?\n" +
+                "\n" +
+                "Financial: \n" +
+                "How much do you want to earn and by what stage?\n"
+                "\n" +
+                "Physical:\n" +
+                "Are there any athletic goals you want to achieve, or do you want good health deep into old age? What steps are going to take to achieve this?\n" +
+                "\n"
+                "Pleasure:\n"
+                "How do you want to enjoy yourself? You should ensure that some of your life for you!\n"
+                "\n"
+                "Public Service:\n"
+                "Do you want to make the world a better place? If so, how?\n</string>
 </resources>
