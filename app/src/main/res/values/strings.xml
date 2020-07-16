@@ -3,7 +3,6 @@
     <string name="app_name">Skillar</string>
     <string name="title_activity_healthy_life">Healthy Life</string>
     <string name="title_activity_skills">Life Skills</string>
-    <string name="title_home">HealthyBeing</string>
     <string name="title_dashboard">Hygiene</string>
     <string name="title_notifications">Healthy Food</string>
     <string name="skill">Skill</string>
@@ -75,7 +74,6 @@
     <string name="tab_3">Exercise</string>
     <string name="skillz">Lyf Skillz</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="ex1">What are your lifetime goals? List them in order of priority starting with the highest priority.\n 1. ………………………………………………………\n 2. ………………………………………………………\n 3. ………………………………………………………</string>
     <string name="lf">The first step in setting personal goals is to consider what you want to achieve in your lifetime (or by a time at least, say, 10 years in the future) as setting Lifetime Goals gives you the overall perspective that shapes all other aspects of your decision making.</string>
