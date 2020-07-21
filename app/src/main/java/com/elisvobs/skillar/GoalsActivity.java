@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.widget.TabHost;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
 import com.elisvobs.skillar.adapter.SectionsPagerAdapter;

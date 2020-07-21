@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Skillar</string>
     <string name="title_activity_healthy_life">Healthy Life</string>
-    <string name="title_activity_skills">Life Skills</string>
+    <string name="skills">Life Skills</string>
     <string name="title_dashboard">Hygiene</string>
     <string name="title_notifications">Healthy Food</string>
     <string name="skill">Skill</string>
@@ -109,4 +109,5 @@
                 "\n"
                 "Public Service:\n"
                 "Do you want to make the world a better place? If so, how?\n</string>
+    <string name="esteem">Self Esteem</string>
 </resources>

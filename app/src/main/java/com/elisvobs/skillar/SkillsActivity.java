@@ -70,7 +70,7 @@ public class SkillsActivity extends AppCompatActivity {
                 animateFab();
                 break;
             case R.id.fab1:
-                startActivity(new Intent(this, MainActivity.class));
+//                startActivity(new Intent(this, MainActivity.class));
                 break;
             case R.id.fab2:
                 break;
