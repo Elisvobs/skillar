@@ -10,7 +10,7 @@ import androidx.viewpager.widget.ViewPager;
 import com.elisvobs.skillar.adapter.SectionsPagerAdapter;
 import com.google.android.material.tabs.TabLayout;
 
-public class ProblemsActivity extends AppCompatActivity {
+public class Problems extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

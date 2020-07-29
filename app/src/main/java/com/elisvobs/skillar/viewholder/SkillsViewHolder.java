@@ -9,8 +9,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.elisvobs.skillar.GoalsActivity;
-import com.elisvobs.skillar.ProblemsActivity;
+import com.elisvobs.skillar.Goals;
+import com.elisvobs.skillar.Intro;
+import com.elisvobs.skillar.Problems;
 import com.elisvobs.skillar.R;
 
 public class SkillsViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
@@ -32,57 +33,61 @@ public class SkillsViewHolder extends RecyclerView.ViewHolder implements View.On
         Intent intent = new Intent();
         switch (getAdapterPosition()) {
             case 0:
-                intent = new Intent(context, GoalsActivity.class);
+                intent = new Intent(context, Intro.class);
                 break;
             case 1:
-                intent = new Intent(context, ProblemsActivity.class);
+                intent = new Intent(context, Goals.class);
                 break;
             case 2:
-//                    intent = new Intent(context, Creative.class);
+                intent = new Intent(context, Problems.class);
                 break;
             case 3:
-//                    intent = new Intent(context, Leaders.class);
+//                    intent = new Intent(context, Creative.class);
                 break;
             case 4:
-//                    intent = new Intent(context, Comm.class);
+//                    intent = new Intent(context, Leaders.class);
                 break;
             case 5:
-//                    intent = new Intent(context, Asserts.class);
+//                    intent = new Intent(context, Comm.class);
                 break;
             case 6:
-//                    intent = new Intent(context, Conflicts.class);
+//                    intent = new Intent(context, Asserts.class);
                 break;
             case 7:
-//                    intent = new Intent(context, Teams.class);
+//                    intent = new Intent(context, Conflicts.class);
                 break;
             case 8:
-//                    intent = new Intent(context, Stress.class);
+//                    intent = new Intent(context, Teams.class);
                 break;
             case 9:
-//                    intent = new Intent(context, Awareness.class);
+//                    intent = new Intent(context, Stress.class);
                 break;
             case 10:
-//                    intent = new Intent(context, Negotiation.class);
+//                    intent = new Intent(context, Awareness.class);
                 break;
             case 11:
-//                    intent = new Intent(context, Time.class);
+//                    intent = new Intent(context, Esteem.class);
                 break;
             case 12:
-//                    intent = new Intent(context, Decisions.class);
+//                    intent = new Intent(context, Negotiation.class);
                 break;
             case 13:
-//                    intent = new Intent(context, Relations.class);
+//                    intent = new Intent(context, Time.class);
                 break;
             case 14:
-//                    intent = new Intent(context, Pressures.class);
+//                    intent = new Intent(context, Decisions.class);
                 break;
             case 15:
-//                    intent = new Intent(context, Substances.class);
+//                    intent = new Intent(context, Relations.class);
                 break;
             case 16:
-//                    intent = new Intent(context, Critical.class);
+//                    intent = new Intent(context, Peer.class);
+                break;
+            case 17:
+//                    intent = new Intent(context, Substance.class);
                 break;
         }
         context.startActivity(intent);
     }
+
 }

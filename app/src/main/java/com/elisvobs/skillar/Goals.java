@@ -14,7 +14,7 @@ import com.elisvobs.skillar.fragment.GoalNotesFragment;
 import com.elisvobs.skillar.fragment.GoalTipsFragment;
 import com.google.android.material.tabs.TabLayout;
 
-public class GoalsActivity extends AppCompatActivity {
+public class Goals extends AppCompatActivity {
 
     TabHost host;
 
